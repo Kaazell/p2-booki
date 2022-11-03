@@ -1,4 +1,30 @@
-h1
-{
-    color: green;
+header{
+    display: flex;  
+    justify-content: space-between;  
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav {
+    padding: 20px;
+}
+
+header {
+    background-color: beige;
+}
+
+#booki {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+nav a:hover {
+    border-top: 2px blue solid;
+}
+
+nav a {
+    color: black;
 }
