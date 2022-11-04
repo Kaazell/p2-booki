@@ -1,30 +1,38 @@
-header{
-    display: flex;  
-    justify-content: space-between;  
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-}
-
-.nav {
-    padding: 20px;
-}
-
+/* Polices */
+* {font-family: 'Raleway', sans-serif;}
+/* Partie header */
 header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;  
+    background-color: aliceblue;
+}
+
+
+nav ul li {
+    padding: 20px;
     background-color: beige;
 }
 
 #booki {
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-nav a:hover {
-    border-top: 2px blue solid;
+    width:61.09 px;
+    height: 19px;
+    position: absolute;
+    left: 55px;
+    top: 44px;
 }
 
 nav a {
     color: black;
+    text-decoration: none;
+}
+
+header:hover {
+    color: blue;
+    border-top: 2px blue solid;
 }
