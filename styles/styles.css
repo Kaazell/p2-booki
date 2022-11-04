@@ -1,24 +1,18 @@
 /* Polices */
 * {font-family: 'Raleway', sans-serif;}
+/* Body */
+body{
+    margin: 3%;
+    margin-top: 2px;
+    width: 90
+}
 /* Partie header */
-header {
+header{
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+
+    height: 104px;
 }
-
-nav ul {
-    list-style-type: none;
-    display: flex;  
-    background-color: aliceblue;
-}
-
-
-nav ul li {
-    padding: 20px;
-    background-color: beige;
-}
-
 #booki {
     width:61.09 px;
     height: 19px;
@@ -26,13 +20,27 @@ nav ul li {
     left: 55px;
     top: 44px;
 }
-
-nav a {
-    color: black;
-    text-decoration: none;
+nav ul {
+    display:flex;
+    margin-top: 0px;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    justify-content: space-between;
+    padding: 40px;
 }
-
-header:hover {
-    color: blue;
-    border-top: 2px blue solid;
+nav a {
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
+}
+/* Partie post-header */
+#main_title p {
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
 }
