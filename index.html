@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
     <title>Booki</title>
+    <script src="https://kit.fontawesome.com/2df4fe767c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,13 +23,14 @@
     <div id="main_title">
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre-ville ou en pleine nature</p>
+
     </div>
-    <div>
+    <div id="search">
         <form method="post" action="traitement.php">
             <p>
-                <label for="location">icon</label>
-                <input type="text" name="location" id="location" placeholder="Marseille, France" size="30" maxlength="10" />
-                <input type="button" value="Rechercher" />
+                <span id="gps"><i class="fa-solid fa-location-dot"></i></span>
+                <input id="field" type="text" name="location" id="location" placeholder="Marseille, France" size="20" maxlength="10" />
+                <input id="rechercher" type="button" value="Rechercher" />
             </p>
         </form>
     </div>
