@@ -26,7 +26,7 @@ nav ul {
     background-color: rgb(255, 255, 255);
     margin-right: 30px;
     justify-content: space-between;
-    padding: 40px;
+    padding: 11%;
 }
 nav a {
     padding: 40px;
@@ -132,13 +132,16 @@ div ul i {
   }
 
   /* Hébergement à marseille */
-.card {
+  .container {
+    background-color: white;
+  }
+  .card {
     background-color: white;
     width: 246px;
     height: 199px;
     border-radius: 20px;
 }
-.box {
+#box {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -164,15 +167,12 @@ div ul i {
     top: 25px;
 
 }
-.container img {
-    object-fit: cover;
-}
 article img {
     width: 246px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
 }
-.box H4, .box p {
+#box H4, #box p {
     margin: 5px;
 }
 .fa-solid {
@@ -188,10 +188,53 @@ article img {
 .grey {
     color: #F2F2F2;
 }
-.box h2, .box h3 {
+#box h2, #box h3 {
     margin-left: 40px;
 }
-.box h2 {
+#box h2 {
     position: relative;
     top: 16px;
+}
+/* Les plus populaires */
+#box2 {
+    width: 420px;
+    height: 625px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+#populaire {
+    display: flex;
+    justify-content: space-between;
+
+}
+#card_lot_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+.aside_card {
+    background-color: #9e6767;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 343px;
+    height: 144px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.photo img {
+    object-fit: cover;
+    width: 137px;
+    height: 124px;
+    border-radius: 20px 0px 0px 20px;
+    padding
+}
+/* total */
+#hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
