@@ -131,110 +131,33 @@ div ul i {
     size: auto;
   }
 
-  /* Hébergement à marseille */
-  .container {
+/* Hébergement à marseille */
+#hebergement article {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 40px;
+}
+  .card {
+    height: 209px;
+    width: 246px;
+    border-radius: 20px;
     background-color: white;
   }
-  .card {
-    background-color: white;
+  .pic_container { 
+    height: 124px;
     width: 246px;
-    height: 199px;
-    border-radius: 20px;
-}
-#box {
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    height: 626px;
-    width: 880px;
-    left: 0px;
-    top: 0px;
-    border-radius: 20px;
-
-}
-#card_lot_1 {
-    background-color: #F2F2F2;
+    border-radius: 20px 20px 0 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    height: 450px;
-    padding-left: 18px;
-    padding-right: 18px;
-    position: relative;
-    top: 25px;
-
-}
-article img {
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-}
-#box H4, #box p {
-    margin: 5px;
-}
-.fa-solid {
-    color: #0065FC;
-    position: relative;
-    left: 5px;
-}
-.description {
-    margin-left: 14px;
-    position: relative;
-    bottom: 4px;
-}
-.grey {
-    color: #F2F2F2;
-}
-#box h2, #box h3 {
-    margin-left: 40px;
-}
-#box h2 {
-    position: relative;
-    top: 16px;
-}
-/* Les plus populaires */
-#box2 {
-    width: 420px;
-    height: 625px;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-}
-#populaire {
-    display: flex;
-    justify-content: space-between;
-
-}
-#card_lot_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 500px;
-}
-.aside_card {
-    background-color: #9e6767;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 343px;
-    height: 144px;
-    border-radius: 20px 20px 20px 20px;
-    margin-left: 20px;
-    margin-top: 30px;
-
-}
-.photo img {
+  }
+  .pic_container img {
+    border-radius: 20px 20px 0 0;
+    width: 97%;
+    height: 89%;
     object-fit: cover;
-    width: 137px;
-    height: 124px;
-    border-radius: 20px 0px 0px 20px;
-    padding
-}
-/* total */
-#hebergement {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    border: 5px white solid;
+    margin-bottom: 5px;
+  }
+/* Les plus populaires */
