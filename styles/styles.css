@@ -1,10 +1,15 @@
 /* Polices */
 * {font-family: 'Raleway', sans-serif;}
+a {
+    text-decoration: none;
+    color: black
+}
 /* Body */
 body{
-    margin: 10%;
     margin-top: 2px;
-    width: 90;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 1400px;
 
 }
 /* Partie header */
@@ -14,11 +19,9 @@ header{
     height: 104px;
 }
 #booki {
-    width:61.09 px;
+    width:61px;
     height: 19px;
-    position: absolute;
-    left: 55px;
-    top: 44px;
+    margin-top: 40px;
 }
 nav ul {
     display:flex;
@@ -91,14 +94,19 @@ form p {
 div ul i {
     color: #0065FC;
   }
-.filtre {
-    width: 870px;
+#lib_filtre {
     display: flex;
+    align-items: center;
+}
+.filtre {
+    width: 60em;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style-type: none;
-
+    padding-left: 0px;
   }
 
   .icon_filtre{
@@ -109,6 +117,7 @@ div ul i {
   .sous-filtre {
     border: 1px #D9D9D9 solid;
     padding: 9px 17px 9px 17px;
+    margin: 15px;
     border-radius: 25px;
     color: black;
     text-decoration: none;
@@ -118,7 +127,7 @@ div ul i {
     text-decoration: none;
   }
 
-  div ul li:hover {
+.filtre a:hover {
     background-color: #DEEBFF ;
   }
 
@@ -129,7 +138,6 @@ div ul i {
     padding: 7px 12px 8px 13px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-    size: auto;
   }
 
 /* Hébergement à marseille */
@@ -137,7 +145,7 @@ div ul i {
     background-color:  #F2F2F2;
     height: 580px;
     width: 800px;
-    padding: 40px;
+    padding: 30px;
     border-radius: 20px;
 }
   .card {
@@ -165,10 +173,10 @@ div ul i {
     margin-bottom: 5px;
   }
   .card h4, .card p, .stars {
-    background-color: white;
     margin-left: 20px;
     margin-top: 0px;
     margin-bottom: 9px;
+    width: 220px;
   }
   #cardlot1 {
     display: flex;
@@ -200,7 +208,6 @@ div ul i {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: ;
     height: 500px;
 }
 #populaire {
@@ -216,7 +223,7 @@ div ul i {
 }
 .pic_container2 img {
     border-radius: 20px 0 0 20px;
-    width: 97%;
+    width: 144px;
     height: 89%;
     object-fit: cover;
     border: 5px white solid;
@@ -230,22 +237,25 @@ div ul i {
     border-radius: 20px;
 }
 .column h4 {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 5px;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 26px;
 }
 .column p{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 26px;
 }
 .stars2 {
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 27px;
+    margin-left: 26px;
 }
 
 /* Total section 1 */
 #section_une {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     height:700px;
@@ -285,13 +295,12 @@ div ul i {
 /* Footer */
 footer {
     margin-top: 100px;
-    background-color: ;
     display: flex;
     justify-content: center;
 }
 #footer {
     background-color: #F2F2F2;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     height: 200px;
@@ -303,6 +312,3 @@ footer li {
     margin-bottom: 12px;
 }
 /* other */
-html {
-
-}
