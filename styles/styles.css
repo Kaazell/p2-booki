@@ -77,6 +77,46 @@ form p {
     color: black;
     opacity: 1; /* Firefox */
   }
-/*================Polices================*/
-/*================Polices================*/
+/*================FILTERS================*/
+div ul i {
+    color: #0065FC; /* Icon colors */
+  }
+#lib_filtre { /* Alignement de toute la partie filtre */
+    display: flex;
+    align-items: center;
+}
+#lib_filtre p {
+    font-size: 18px;
+    font-weight: bold;
+}
+#filtre {
+    width: 60em;
+    display: flex; /* Flexbox des 4 éléments filtre */
+    flex-wrap: wrap; 
+  }
+.icon_filtre{
+    padding-right: 15px;
+  }
+.sous-filtre { /* Encadrement des filtres */
+    border: 1.5px #D9D9D9 solid;
+    padding: 9px 17px 9px 17px;
+    margin: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+.sous-filtre:hover {
+    background-color: #DEEBFF ;
+  }
+#filtre li{
+    margin: 15px 0; /* Gestion de l'espacement en colonne après redimension */
+}
+/*================INFO QUOTE================*/
+#i {
+    color: #0065FC;
+    margin-right: 15px;
+    padding: 7px 12px 8px 13px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+  }
+
 /*================Polices================*/
