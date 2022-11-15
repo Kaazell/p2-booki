@@ -118,5 +118,32 @@ div ul i {
     border: 1px solid #D9D9D9;
     border-radius: 50%;
   }
+/*==================CARDS 1==================*/
+.card {
+    border: 1px black solid;
+    height: 199px;
+    max-width: 246px;
+    border-radius: 20px;
+    background-color: white;
+}
+.pic_container {
+    border: 1px blue solid;
+    height: 124px;
+    border-radius: 20px 20px 0 0;
+}
+.pic_container img {
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    width: 96%;
+    height: 92%;
+    border: 5px yellow solid; /* White border */
+}
+/*==================CARDS 2==================*/
 
-/*================Polices================*/
+/*================SECTION 1================*/
+#hide {
+    display: none; /* W3C validator */
+}
+img {
+    display: ; /* TEMPORAIRE */
+}
