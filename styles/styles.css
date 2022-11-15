@@ -4,18 +4,21 @@ a {
     text-decoration: none;
     color: black
 }
-/*================BODY================*/
+/*=================BODY==================*/
 * {
     list-style-type: none;
 }
-/*================HEADER================*/
+body {
+    width: 95%; /* 5% sur chaque côté pour laisser une marge */
+    margin: auto;
+}
+/*=================HEADER=================*/
 header {
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
-    height: 100px;
+    height: 95px;
 }
-#booki {
+#booki { /* Placement du logo */
     width: 61px;
     height: 19px;
     margin-top: 36px;
@@ -23,13 +26,19 @@ header {
 header nav ul {
     display: flex;
 }
-header nav ul li{
-    margin-top: -24px;
-    padding: 40px;
+header li {
+padding-top: 22px;
 }
-header a:hover {
+header nav a {
+    padding: 35px;
+}
+header nav a:hover {
     border-top: 3px #0065FC solid;
+    color: #0065FC;
 }
+
+
+
 /*================Polices================*/
 /*================Polices================*/
 /*================Polices================*/
