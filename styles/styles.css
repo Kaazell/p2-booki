@@ -1,4 +1,4 @@
-/*================Polices================*/
+    /*================Polices================*/
 * {font-family: 'Raleway', sans-serif;}
 a {
     text-decoration: none;
@@ -120,14 +120,13 @@ div ul i {
   }
 /*==================CARDS 1==================*/
 .card {
-    border: 1px black solid;
     height: 199px;
     max-width: 246px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 2px 2px 5px #ede6e6 ;
 }
 .pic_container {
-    border: 1px blue solid;
     height: 124px;
     border-radius: 20px 20px 0 0;
 }
@@ -136,11 +135,23 @@ div ul i {
     border-radius: 20px 20px 0 0;
     width: 96%;
     height: 92%;
-    border: 5px yellow solid; /* White border */
+    border: 5px white solid; /* White border */
+}
+.card h4, .card p, .stars {
+    margin-left: 14px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    width: 220px;
 }
 /*==================CARDS 2==================*/
-
+/* Ne pas oublier de commit */
 /*================SECTION 1================*/
+.fa-star {
+    color:#0065FC;
+}
+.grey {
+    color:#F2F2F2;;
+}
 #hide {
     display: none; /* W3C validator */
 }
