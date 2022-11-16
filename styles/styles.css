@@ -145,12 +145,14 @@ div ul i {
 }
 /*==================CARDS 2==================*/
 .card2 {
-    display: flex;
     height: 144px;
     max-width: 343px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 2px 2px 5px #ede6e6 ;
+    box-shadow: 2px 2px 5px #ede6e6;
+}
+.card2 a{
+    display: flex;
 }
 .pic_container2 {
     height: 144px;
@@ -159,19 +161,23 @@ div ul i {
 }
 .pic_container2 img {
     object-fit: cover;
+    width: 137px;
     height: 93%;
-    max-width: 93%;
-    border-radius: 20px 0 0 20px;
     border: 5px white solid;
+    border-radius: 20px 0 0 20px;
 }
-.card2 h4, .card2 p, .stars2 {
-    margin-left: 14px;
+.column {
+    margin-left: 26px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.card2 h4 {
-    margin-bottom: -10px;
+.card_text h4, .card_text p {
+    margin: 0px;
+    margin-top: 7px;
 }
-.card2 p{
-    margin-bottom: 50px;
+.stars2 {
+    margin-bottom: 10px;
 }
 /*================SECTION 1================*/
 .fa-star {
@@ -184,6 +190,11 @@ div ul i {
     display: none; /* W3C validator */
 }
 img {
-    display: ; /* TEMPORAIRE */
+    display: ;
+}
+#hebergement {
+    background-color:  #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
 }
 /* Ne pas oublier de commit */
