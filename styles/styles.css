@@ -1,4 +1,45 @@
-    /*================Polices================*/
+/*=============MEDIAQUERIES=============*/
+
+@media screen and (max-width: 768px) /* Smartphones */
+{ 
+    body {
+        width: 100%;
+    }
+    /*HEADER*/
+    header a{
+        display: block;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        width: 100%;
+    }
+    header ul {
+        padding: 0px;
+        width: 100%;
+    }
+    #left {
+        width: 50%;
+    }
+    #right {
+        width: 50%;
+    }
+    /*PostHeader*/
+    main { /*Changer main pour autre chose*/
+        margin-top: 200px;
+    }
+    header ul li a {
+        border-bottom: 3px #F2F2F2 solid;
+    }
+    header ul li a:hover {
+        border: 3px white solid;
+        border-bottom: 3px #0065FC solid;
+    }
+}
+/*================Polices================*/
 * {font-family: 'Raleway', sans-serif;}
 a {
     text-decoration: none;
@@ -121,12 +162,12 @@ div ul i {
 /*==================CARDS 1==================*/
 .card {
     height: 199px;
+    min-width: 200px;
     width: 28%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 5px #ede6e6 ;
-    margin: 20px;
-}
+    margin: 20px;}
 .pic_container {
     height: 124px;
     border-radius: 20px 20px 0 0;
@@ -148,7 +189,6 @@ div ul i {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px black solid;
 }
 #hebergement h2 {
     margin-left: 30px;
@@ -165,7 +205,7 @@ div ul i {
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 5px #ede6e6;
-
+    margin: 20px;
 }
 .card2 a{
     display: flex;
@@ -207,12 +247,10 @@ div ul i {
     margin-top: 27px;
 }
 #cardlot2 {
-    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px black solid;
 }
 /*================SECTION 1================*/
 .fa-star {
@@ -241,7 +279,6 @@ div ul i {
     justify-content: space-between;
     flex-wrap: wrap-reverse; /* Responsive */
 }
-/* Ne pas oublier de commit */
 /*================SECTION 2================*/
 #activite {
     margin-top: 60px;
@@ -285,7 +322,8 @@ footer {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    flex-wrap: wrap;
+    height: auto;
 }
 footer li {
     margin-bottom: 12px;
@@ -293,3 +331,4 @@ footer li {
 footer ul {
     padding-left: 0px;
 }
+/* Ne pas oublier de commit */
