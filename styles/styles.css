@@ -2,42 +2,6 @@
 
 @media screen and (max-width: 768px) /* Smartphones */
 { 
-    body {
-        width: 100%;
-    }
-    /*HEADER*/
-    header a{
-        display: block;
-    }
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header nav {
-        width: 100%;
-    }
-    header ul {
-        padding: 0px;
-        width: 100%;
-    }
-    #left {
-        width: 50%;
-    }
-    #right {
-        width: 50%;
-    }
-    /*PostHeader*/
-    main { /*Changer main pour autre chose*/
-        margin-top: 200px;
-    }
-    header ul li a {
-        border-bottom: 3px #F2F2F2 solid;
-    }
-    header ul li a:hover {
-        border: 3px white solid;
-        border-bottom: 3px #0065FC solid;
-    }
 }
 /*================Polices================*/
 * {font-family: 'Raleway', sans-serif;}
@@ -259,17 +223,20 @@ div ul i {
 .grey {
     color:#F2F2F2;;
 }
+.fa-chart-line {
+    color: #0065FC;
+}
 #hide {
     display: none; /* W3C validator */
 }
 #hebergement {
     background-color: #F2F2F2;
     width: 66%;
-    border-radius: 20px;
-}
+    min-width: 450px;
+    border-radius: 20px;}
 #populaire {
     background-color: #F2F2F2;
-    min-width: 400px;
+    min-width: 450px;
     width: 32%; 
     border-radius: 20px;
 }
@@ -277,6 +244,7 @@ div ul i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: ;
     flex-wrap: wrap-reverse; /* Responsive */
 }
 /*================SECTION 2================*/
