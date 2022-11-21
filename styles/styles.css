@@ -322,4 +322,47 @@ footer ul {
     }
 }
 /*=============MEDIAQUERIES S=============*/
-@media screen and (max-width: 768px) /* Smartphone */
+@media screen and (max-width: 768px)/* Smartphone */
+{ 
+    body{
+        width: 100%;
+        margin: none;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    a[href="images/logo/Booki@3x.png"] {
+        text-align: center;
+        margin-top: 80px;
+    }
+    header li {
+        padding-top: 0px;
+        padding-bottom: 22px;
+        width: 50%;
+    }
+    header nav a {
+        padding: 0px;
+        padding-bottom: 20px;
+        border-bottom: 3px #F2F2F2 solid;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header nav a:hover {
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        color: #0065FC;
+    }
+    ul {
+        padding: 0px;
+        margin-top: 10px; 
+    }
+    header nav {
+        margin-top: 40px;
+    }
+    main{
+        margin-top: 80px;
+    }
+} 
