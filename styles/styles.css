@@ -244,7 +244,6 @@ div ul i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: ;
     flex-wrap: wrap; /* Responsive */
 }
 /*================SECTION 2================*/
@@ -407,4 +406,42 @@ footer ul {
         margin: 15px 0; /* Gestion de l'espacement en colonne après redimension */
     }
     /* Section 1 */
+    #hebergement {
+        background-color: white;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #populaire {
+        width: 100%; 
+        height: auto;
+        border-radius: 0px; 
+        display: flex;
+        flex-direction: column; 
+    }
+    #section_une {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse; /* Responsive */
+    }
+    /* Populaires */
+    #cardlot2 {
+        display: flex;
+        flex-direction: column;
+        justify-content:baseline;
+        align-items:center;
+        padding-bottom: 40px;
+    }
+    .card2 {
+        height: 144px;
+        width: 90%;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 2px 2px 5px #ede6e6;
+        margin: 10px;
+    }   
+    .column {
+        padding-left: 18px;
+    }
+
 } 
