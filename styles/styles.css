@@ -74,6 +74,9 @@ form p {
     font-size: 18px;
     border: #0065FC;
 }
+.fa-magnifying-glass {
+    display: none;
+}
 ::placeholder { 
     color: black;
     opacity: 1; /* Firefox */
@@ -324,6 +327,7 @@ footer ul {
 /*=============MEDIAQUERIES S=============*/
 @media screen and (max-width: 768px)/* Smartphone */
 { 
+    /*Header*/
     body{
         width: 100%;
         margin: none;
@@ -365,4 +369,28 @@ footer ul {
     main{
         margin-top: 80px;
     }
+    /*Pre-section*/
+    #pre-section {
+        margin: 4%;
+    }
+    #rechercher {
+        display: none;
+    }
+    .fa-magnifying-glass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 0 16px 16px 0;
+        font-weight: bold;
+        font-size: 18px;
+        border: #0065FC;
+    }
+    #field {
+        font-size: 17px;
+    }
+
 } 
