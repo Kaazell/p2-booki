@@ -391,4 +391,20 @@ footer ul {
         border-radius: 0 16px 16px 0;
         border: #0065FC;
     }
+    /* Filtres !!!!A FINIR!!!!! */
+    #lib_filtre { /* Alignement de toute la partie filtre */
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        flex-wrap: ;
+    }
+    #filtre {
+        width: 100%;
+        display: flex; /* Flexbox des 4 éléments filtre */
+        flex-wrap: wrap; 
+      }
+    #filtre li{
+        margin: 15px 0; /* Gestion de l'espacement en colonne après redimension */
+    }
+    /* Section 1 */
 } 
