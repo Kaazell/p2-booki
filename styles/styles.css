@@ -125,12 +125,12 @@ div ul i {
 /*==================CARDS 1==================*/
 .card {
     height: 199px;
-    min-width: 200px;
     width: 28%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 5px #ede6e6 ;
-    margin: 20px;}
+    margin: 2%;
+}
 .pic_container {
     height: 124px;
     border-radius: 20px 20px 0 0;
@@ -175,12 +175,13 @@ div ul i {
 }
 .pic_container2 {
     height: 144px;
-    width: 137px;
+    width: 33%;
+    min-width: 33%;
     border-radius: 20px 0 0 20px;
 }
 .pic_container2 img {
     object-fit: cover;
-    width: 137px;
+    width: 100%;
     height: 93%;
     border: 5px white solid;
     border-radius: 20px 0 0 20px;
@@ -236,7 +237,6 @@ div ul i {
 }
 #populaire {
     background-color: #F2F2F2;
-    min-width: 450px;
     width: 32%; 
     border-radius: 20px;
 }
@@ -244,7 +244,6 @@ div ul i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap; /* Responsive */
 }
 /*================SECTION 2================*/
 #activite {
@@ -299,6 +298,10 @@ footer ul {
 @media screen and (max-width: 992px) /* Tablettes */
 {
     /* section 1 */
+    #section_une {
+        display: flex;
+        flex-wrap: wrap;
+    }
     #hebergement {
         width: 100%;
         margin-right: 0px;
