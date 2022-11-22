@@ -276,7 +276,7 @@ div ul i {
     flex-direction: row;
     justify-content: space-between;
 }
-.card_title {
+.card_title3 {
     height: 15%;
     display: flex;
     align-items: center;
@@ -506,6 +506,9 @@ footer ul {
         align-items: center;
         justify-content: space-between;
     }
+    .card_title3 {
+        height: 30%;
+    }
     /* Footer */
     #footer {
         margin-left: 30px ;
@@ -513,9 +516,5 @@ footer ul {
         flex-direction: column;
         padding-bottom: 50px;
     }
-    .card_title {
-        height: 30%;
-        display: flex;
-        align-items: center;
-    }
+
 } 
