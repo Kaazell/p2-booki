@@ -1,4 +1,4 @@
-/*================GENERAL================*/
+/*==================GENERAL=================*/
 * {
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
@@ -13,7 +13,9 @@ body {
     margin: auto;
     max-width: 1400px;
 }
-/*=================HEADER=================*/
+/*==================GENERAL=================*/
+
+/*==================HEADER==================*/
 header {
     display: flex;
     justify-content: space-between;
@@ -37,11 +39,15 @@ header nav a:hover {
     border-top: 3px #0065FC solid;
     color: #0065FC;
 }
+/*==================HEADER==================*/
+
 /*================MAIN TITLE================*/
 h1 {
     font-size: 22px;
 }
-/*================SEARCH BAR=================*/
+/*================MAIN TITLE================*/
+
+/*================SEARCH BAR================*/
 form p {
     display: flex;/* searchbar alignment */
 }
@@ -80,11 +86,13 @@ form p {
     color: black;
     opacity: 1; /* Firefox */
   }
-/*================FILTERS================*/
+/*================SEARCH BAR================*/
+
+/*==================FILTERS=================*/
 div ul i {
     color: #0065FC; /* Icon colors */
   }
-#lib_filtre { /* filtre part x alignment */
+#lib_filtre { /* filtre part horizontal alignment */
     display: flex;
     align-items: center;
 }
@@ -113,6 +121,12 @@ div ul i {
 #filtre li{
     margin: 15px 0; /* Gestion de l'espacement en colonne après redimension */
 }
+#filtre p {
+    display: inline;
+    font-size: 17px;
+}
+/*==================FILTERS=================*/
+
 /*================INFO QUOTE================*/
 #i {
     color: #0065FC;
@@ -120,8 +134,10 @@ div ul i {
     padding: 7px 12px 8px 13px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-  }
-/*==================CARDS 1==================*/
+}
+/*================INFO QUOTE================*/
+
+/*==================CARDS 1=================*/
 .card {
     height: 199px;
     width: 28%;
@@ -160,7 +176,9 @@ div ul i {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-/*==================CARDS 2==================*/
+/*==================CARDS 1=================*/
+
+/*==================CARDS 2=================*/
 .card2 {
     height: 144px;
     width: 90%;
@@ -215,7 +233,9 @@ div ul i {
     justify-content: space-between;
     align-items: center;
 }
-/*================SECTION 1================*/
+/*==================CARDS 2=================*/
+
+/*=================SECTION 1================*/
 .fa-star {
     color:#0065FC;
 }
@@ -244,7 +264,9 @@ div ul i {
     flex-direction: row;
     justify-content: space-between;
 }
-/*================SECTION 2================*/
+/*=================SECTION 1================*/
+
+/*=================SECTION 2================*/
 #activite {
     margin-top: 60px;
 }
@@ -280,6 +302,8 @@ div ul i {
     display: flex;
     align-items: center;
 }
+/*=================SECTION 2================*/
+
 /*==================FOOTER==================*/
 footer {
     background-color: #F2F2F2;      
@@ -300,10 +324,12 @@ footer li {
 footer ul {
     padding-left: 0px;
 }
-/*=============MEDIAQUERIES T=============*/
+/*==================FOOTER==================*/
+
+/*===============MEDIAQUERIES T=============*/
 @media screen and (max-width: 992px) /* Tablettes */
 {
-    /* section 1 */
+                /* section 1 */
     #section_une {
         display: flex;
         flex-wrap: wrap;
@@ -332,10 +358,12 @@ footer ul {
         margin-left: 10px;
     }
 }
-/*=============MEDIAQUERIES S=============*/
+/*===============MEDIAQUERIES T=============*/
+
+/*===============MEDIAQUERIES S=============*/
 @media screen and (max-width: 768px)/* Smartphone */
 { 
-    /*Header*/
+                /*Header*/
     body{
         width: 100%;
         }
@@ -376,11 +404,11 @@ footer ul {
     main{
         margin-top: 80px;
     }
-    /*Pre-section*/
+                /*Pre-section*/
     #pre-section {
         margin: 4%;
     }
-    /* Search Bar */
+                /* Search Bar */
     #rechercher {
         display: none;
     }
@@ -398,21 +426,32 @@ footer ul {
         border-radius: 0 16px 16px 0;
         border: #0065FC;
     }
-    /* Filtres !!!!A FINIR!!!!! */
-    #lib_filtre { /* Alignement de toute la partie filtre */
-        display: flex;
+                /* Filtres */
+    #filtre p {
+        display: inline-block;
+        font-size: 11px;
+        width: 100px;
+        position: relative;
+        bottom: 1px;
+    }
+    #lib_filtre { 
         flex-direction: column;
         align-items: baseline;
     }
-    #filtre {
-        width: 100%;
-        display: flex; /* Flexbox des 4 éléments filtre */
-        flex-wrap: wrap; 
+    #lib_filtre ul {
+        padding-left: 0px;
+    }
+    .sous-filtre {
+        margin-left: 0px;
+    }
+    .icon_filtre{
+        margin-right: 5px;
+        margin-left: -8px;
       }
     #filtre li{
-        margin: 15px 0; /* Gestion de l'espacement en colonne après redimension */
+        margin: 10px 0;
     }
-    /* Section 1 */
+                /* Section 1 */
     #hebergement {
         background-color: white;
         width: 100%;
@@ -431,7 +470,7 @@ footer ul {
         justify-content: space-between;
         flex-wrap: wrap-reverse; /* Responsive */
     }
-    /* Populaires */
+                /* Populaires */
     #cardlot2 {
         display: flex;
         flex-direction: column;
@@ -462,10 +501,7 @@ footer ul {
     #hebergement h3 {
         display: none;
     }
-    .card h4, .card p, .stars {
-        
-    }
-    /* Section 2: Activités */
+                /* Section 2: Activités */
     #activite {
         margin-top: 60px;
     }
@@ -489,12 +525,12 @@ footer ul {
     .card_title3 {
         height: 30%;
     }
-    /* Footer */
+                /* Footer */
     #footer {
         margin-left: 30px ;
         display: flex;
         flex-direction: column;
         padding-bottom: 50px;
     }
-
 } 
+/*===============MEDIAQUERIES S=============*/
