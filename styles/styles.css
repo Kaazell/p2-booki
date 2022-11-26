@@ -425,6 +425,8 @@ footer ul {
         height: 55px;
         border-radius: 16px 16px 16px 16px;
         border: #0065FC;
+        position: relative;
+        right: 12px;
     }
                 /* Filtres */
     #filtre p {
