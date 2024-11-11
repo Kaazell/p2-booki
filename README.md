@@ -42,4 +42,4 @@ Visiter le site [Booki](https://booki-three-indol.vercel.app/).
 Le projet a été réalisé dans un cadre pédagogique pour renforcer les bases en HTML et CSS et maîtriser l’intégration de maquettes responsives. Ce projet constitue un exercice crucial pour tout développeur web front-end souhaitant se spécialiser dans la création d’interfaces modernes et adaptatives.
 
 ## Auteur
-Projet réalisé par Atef Lachhab dans le cadre de la formation OpenClassrooms - Développeur Web Frontend.
+Projet réalisé par Atef Lachhab dans le cadre de la formation OpenClassrooms - Développeur Web.
