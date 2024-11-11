@@ -26,7 +26,7 @@ Aucun prérequis spécifique n'est nécessaire pour ce projet, si ce n'est un é
 ## Installation et utilisation
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/ateflachhab/agence-voyage-homepage.git
+   git clone https://github.com/Kaazell/p2-booki.git
     ```
 Ouvrez le fichier index.html dans votre navigateur pour afficher la page d'accueil.
 
