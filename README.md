@@ -33,7 +33,8 @@ Ouvrez le fichier index.html dans votre navigateur pour afficher la page d'accue
 Pour visualiser le site en responsive, utilisez les outils de développement de votre navigateur (généralement accessible avec F12) et testez l'affichage sur mobile, tablette et desktop.
 
 ## Aperçu
-<!-- Remplacez l'URL par un lien vers une image d'aperçu du site -->
+![Capture d'écran du site Booki](/screenshots/booki1.webp)
+
 
 ## Remarques
 Le projet a été réalisé dans un cadre pédagogique pour renforcer les bases en HTML et CSS et maîtriser l’intégration de maquettes responsives. Ce projet constitue un exercice crucial pour tout développeur web front-end souhaitant se spécialiser dans la création d’interfaces modernes et adaptatives.
