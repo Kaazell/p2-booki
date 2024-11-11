@@ -33,6 +33,8 @@ Ouvrez le fichier index.html dans votre navigateur pour afficher la page d'accue
 Pour visualiser le site en responsive, utilisez les outils de développement de votre navigateur (généralement accessible avec F12) et testez l'affichage sur mobile, tablette et desktop.
 
 ## Aperçu
+Visiter le site [Booki](https://booki-three-indol.vercel.app/).
+
 ![Capture d'écran du site Booki](/screenshots/booki1.webp)
 
 
